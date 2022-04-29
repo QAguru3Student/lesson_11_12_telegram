@@ -1,0 +1,8 @@
+BOT_TOKEN  5266717180:AAHx7QV6Qu-lpM3IBFoJapEJvhwv74FWebI
+CHAT ID -1001745680935
+
+// Command in many lines (\ as separator)
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "306494432", "text": "This is a test from curl", "disable_notification": true}' \
+     https://api.telegram.org/bot5266717180:AAHx7QV6Qu-lpM3IBFoJapEJvhwv74FWebI/sendMessage
